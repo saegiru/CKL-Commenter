@@ -1,0 +1,4 @@
+This script takes a completed STIG checklist file and copies the status over to a new checklist. It also copies the old comments and adds new text comments
+based on user inputs. The initials, date, location of old and new checklists are logged
+the Vulnerability numbers for both the old and new checklists are compared and it is also logged if a vulnerability appears or disappears from the new checklist
+Any changes from the old checklist are set to Not Reviewed status and appended with a message to review the vulnerability.
